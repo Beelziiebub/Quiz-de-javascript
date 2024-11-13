@@ -1,0 +1,154 @@
+/* Corpo do site */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* TÍTULO PRINCIPAL */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: "DynaPuff", system-ui;
+    font-weight: 400; /* Corrigido: Ajustar peso da fonte */
+}
+
+/* CABEÇALHO E RODAPÉ */
+.container {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    color: black; /* Alterado para texto preto no título */
+}
+
+/* FORMATAÇÃO DAS LETRAS DA H2 */
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: "DynaPuff", system-ui;
+}
+
+/* FONTE DAS LETRAS DA LINHA <P> */
+p {
+    font-family: "DynaPuff", serif;
+    text-align: center;
+    color: black;
+}
+
+/* Contador */
+#contador {
+    font-family: "DynaPuff", serif;
+    text-align: center;
+    color: black;
+}
+
+/* Botão iniciar QUIZ */
+#botao {
+    background-color: rgb(212, 91, 182);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#botao:hover {
+    background-color: #24292e;
+}
+
+/* HIDDEN */
+.hidden {
+    display: none;
+}
+
+/* REDES SOCIAIS */
+#redes-sociais {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#redes-sociais h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.redes-sociais-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 2.5rem;
+    color: #333;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.linkedin {
+    background-color: lightgreen;
+    border: black solid;
+}
+
+.linkedin:hover {
+    background-color: green;
+}
+
+.github {
+    background-color: rgb(255, 255, 255);
+    border: black solid;
+}
+
+.github:hover {
+    background-color: #24292e;
+}
+
+.email {
+    background-color: #d44638;
+    border: black solid;
+}
+
+.email:hover {
+    background-color: #bb2d3b;
+}
+
+.social-icon:hover {
+    color: #fff;
+}
+
+/* Tabuleiro do Quiz */
+#Pergunta button {
+    display: block;
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Pergunta button:hover {
+    background-color: #ddd;
+}
